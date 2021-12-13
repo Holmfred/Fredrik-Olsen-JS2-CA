@@ -1,0 +1,101 @@
+body {
+    background: #ebebeb;
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+label {
+    display: block;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form > div {
+    margin-bottom: 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.4rem;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    min-width: 300px
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    margin: 1rem;
+    margin-left: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: white;
+    width: 400px;
+}
+
+.fa-heart {
+    margin-left: 370px;
+}
+
+.message {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid grey;
+    color: grey;
+}
+
+.message.error {
+    border-color: red;
+    color: white;
+    background: red;
+}
+
+.message.warning {
+    border-color: orange;
+    color: white;
+    background: orange;
+}
+
+.message.success {
+    border-color: green;
+    color: white;
+    background: green;
+}
