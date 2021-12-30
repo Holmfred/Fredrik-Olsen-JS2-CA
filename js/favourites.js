@@ -8,6 +8,8 @@ if (favourites.length === 0) {
     container.innerHTML = "Nothing in favourites yet";
 }
 
+container.innerHTML = "";
+
 favourites.forEach((article) => {
     container.innerHTML += `<div class="article">
                                     <h2>${article.title}</h4>

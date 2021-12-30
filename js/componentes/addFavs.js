@@ -37,6 +37,6 @@ export function addFavs() {
     }
 
     function saveFavs(favs) {
-        localStorage.setItem("favorites", JSON.stringify(favs));
+        localStorage.setItem("favourites", JSON.stringify(favs));
     }
 }
